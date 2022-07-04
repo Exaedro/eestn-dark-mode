@@ -1,0 +1,133 @@
+:root {
+    --bg-color: #303240;
+    --under-color: #1f212b;
+    --text-color: #fff;
+}
+
+body, #topofscroll, [role="main"] {
+    background-color: var(--bg-color)!important;
+}
+
+#page h1, #page h2, #page h3, #page h4, #page h5, #page span, #page i, #page p, #page a, #page strong, #page td, #page th {
+    color: var(--text-color)!important;
+}
+
+#page-wrapper > .navbar {
+    background-color: var(--under-color)!important;
+}
+
+#page-wrapper > .navbar ul li a, #page-wrapper > .navbar label {
+    color: #fff!important;
+}
+
+#page-wrapper > .navbar ul li a:hover {
+    background-color: #abb2dc!important;
+}
+
+#inst7698 > .card-body, #inst7698 > .card-body .list-group-item, #region-main {
+    background-color: var(--bg-color)!important;
+    color: var(--text-color)!important;
+}
+
+.popover-region-header-container, .popover-region-header-container .content-item-container, .popover-region-footer-container, .popover-region-content-container, .popover-region-container {
+    background-color: var(--under-color)!important;
+    color: var(--text-color)!important;
+}
+
+/* Chat */
+
+.message-app, .message-app .card-header, .message-app .list-group-item, .message-app .bg-white, .message-app .border, .message-app #region-main {
+    background-color: var(--under-color)!important;
+    color: var(--text-color)!important;    
+}
+
+/* Termina chat */
+
+/* Area personal */
+
+#inst1478 > .card-body .dashboard-card {
+    background-color: var(--under-color)!important;
+    color: var(--text-color)!important;
+}
+
+#inst1478 > .card-body ul.pagination a {
+    background-color: var(--under-color)!important;
+    color: var(--text-color)!important;
+}
+
+#inst1478, #inst1665, #inst10, #inst1665 .list-group-item {
+    background-color: var(--bg-color)!important;
+    color: var(--text-color)!important;
+}
+
+/* Termina area personal */
+
+.dropdown-menu, .dropdown-menu a {
+    background-color: var(--bg-color)!important;
+    color: var(--text-color)!important;
+}
+
+.drawercontent, .drawerheader {
+    background-color: var(--under-color)!important;
+    color: var(--text-color)!important;
+}
+
+.drawercontent a {
+    color: var(--text-color)!important;
+}
+
+.drawercontent a:hover {
+    color: rgba(189, 189, 189, 0.5)!important;
+}
+
+/* Cursos */
+
+.secondary-navigation .navigation {
+    border-top: 0px solid var(--under-color)!important;
+    border-bottom: 0px solid var(--under-color)!important;
+    background-color: var(--under-color)!important;
+}
+
+.moremenu .nav-tabs {
+    background-color: var(--under-color)!important;
+    color: var(--text-color)!important;
+}
+
+.moremenu a:hover {
+    background-color: #abb2dc!important;
+}
+
+.activity-item {
+    background-color: var(--bg-color)!important;
+    color: var(--text-color)!important;
+}
+
+.course-description-item {
+    background-color: var(--bg-color)!important;
+    color: var(--text-color)!important;
+}
+
+.path-mod .activity-header {
+    background-color: var(--under-color)!important;
+    color: var(--text-color)!important;
+}
+
+.bg-light {
+    background-color: var(--under-color)!important;
+    color: var(--text-color)!important;
+}
+
+.page-link {
+    background-color: var(--bg-color)!important;
+}
+
+/* Termina cursos */
+
+/* Perfil */
+
+.node_category {
+    background-color: var(--under-color)!important;
+    color: var(--text-color)!important;
+}
+
+/* Termina perfil */

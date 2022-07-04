@@ -1,0 +1,23 @@
+{
+    "name": "EESTN - Dark Mode",
+    "description": "Extension para tener un modo oscuro en la pagina de EESTN1",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage",
+        "management"
+      ],
+    "browser_action": {
+        "default_title": "Medium Dark"
+    },
+    "content_scripts": [{
+        "matches": [
+            "https://eest.tecnica1vl.org/tecmood/*"
+        ],
+        "css": [
+            "src/dark_mode.css"
+        ]
+    }]
+  }
