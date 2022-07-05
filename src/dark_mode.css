@@ -110,6 +110,17 @@ body, #topofscroll, [role="main"] {
     padding: 5px!important;
 }
 
+.day {
+    color: var(--text-color)!important;
+}
+
+/* Chat */
+
+.message-app, .message-app .card-header, .message-app .list-group-item, .message-app .bg-white, .message-app .border, .message-app #region-main {
+    background-color: var(--under-color)!important;
+    color: var(--text-color)!important;    
+}
+
 .message-app .footer-container textarea {
     color: #000!important;
 }
@@ -121,17 +132,6 @@ body, #topofscroll, [role="main"] {
 .message-app .message.received, .message-app .message.send {
     background-color: var(--bg-color)!important;
     color: var(--text-color)!important;
-}
-
-.day {
-    color: var(--text-color)!important;
-}
-
-/* Chat */
-
-.message-app, .message-app .card-header, .message-app .list-group-item, .message-app .bg-white, .message-app .border, .message-app #region-main {
-    background-color: var(--under-color)!important;
-    color: var(--text-color)!important;    
 }
 
 /* Termina chat */
