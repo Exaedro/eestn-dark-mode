@@ -18,7 +18,7 @@ body, #topofscroll, [role="main"] {
     background-color: var(--bg-color)!important;
 }
 
-#page h1, #page h2, #page h3, #page h4, #page h5, #page span, #page i, #page p, #page a, #page strong, #page td, #page th {
+#page h1, #page h2, #page h3, #page h4, #page h5, #page span, #page i, #page p, #page strong, #page td, #page th {
     color: var(--text-color)!important;
 }
 
@@ -201,6 +201,10 @@ body, #topofscroll, [role="main"] {
     background-color: var(--hover-color)!important;
 }
 
+.moremenu a {
+    color: var(--text-color)!important;
+}
+
 .activity-item {
     background-color: var(--bg-color)!important;
     color: var(--text-color)!important;
@@ -255,3 +259,67 @@ body, #topofscroll, [role="main"] {
 }
 
 /* Termina login */
+
+/* Editor de texto */
+.editor_atto_content {
+    color: var(--text-color)!important;
+    background-color: var(--under-color)!important;
+}
+
+.editor_atto_content_wrap {
+    background-color: transparent!important;
+}
+
+div.editor_atto_toolbar {
+    background: var(--bg-color)!important;
+}
+
+div.editor_atto_toolbar button {
+    background-color: var(--under-color)!important;
+}
+
+div.editor_atto_toolbar div.atto_group {
+    border: 0px solid var(--under-color)!important;
+    border-bottom: 0px solid var(--under-color)!important;
+}
+
+div.editor_atto_toolbar button+button {
+    border-left: 0px solid #000!important;
+}
+
+.editor_atto_toolbar button:hover {
+    background-image: radial-gradient(ellipse at center,var(--hover-color) 60%,var(--hover-color) 100%)!important;
+}
+/* Termina editor de texto */
+
+.moodle-dialogue-base .moodle-dialogue .moodle-dialogue-bd {
+    background-color: var(--bg-color)!important;
+}
+
+.moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd {
+    background-color: var(--bg-color)!important;
+    color: white!important;
+}
+
+.fp-content {
+    color: var(--text-color)!important;
+    
+    border-top-left-radius: 0px!important;
+    border-top-right-radius: 0px!important;
+}
+
+.fp-navbar {
+    border-color: var(--under-color)!important;
+}
+
+/* Docentes */
+
+.activity-add {
+    color: #0f6cbf!important;
+    border-color: #0f6cbf!important;
+    background-color: var(--bg-color)!important;
+}
+
+.activity-add:hover {
+    background-color: var(--under-color)!important;
+}
