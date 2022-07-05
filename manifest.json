@@ -15,6 +15,9 @@
         ],
         "css": [
             "src/dark_mode.css"
+        ],
+        "js": [
+            "src/script.js"
         ]
     }]
   }
