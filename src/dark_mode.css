@@ -1,8 +1,14 @@
 :root {
-    --bg-color: #303240;
-    --under-color: #1f212b;
+    --bg-color: #2C2F33;
+    --under-color: #23272A;
     --text-color: #fff;
+    --hover-color: rgb(53,53,53);
 }
+
+/*
+303240
+1f212b
+*/
 
 body, #topofscroll, [role="main"] {
     background-color: var(--bg-color)!important;
@@ -21,7 +27,11 @@ body, #topofscroll, [role="main"] {
 }
 
 #page-wrapper > .navbar ul li a:hover {
-    background-color: #abb2dc!important;
+    background-color: var(--hover-color)!important;
+}
+
+.navbar.fixed-top {
+    border-bottom: var(--bg-color) 0px solid!important;
 }
 
 #inst7698 > .card-body, #inst7698 > .card-body .list-group-item, #region-main {
@@ -32,6 +42,46 @@ body, #topofscroll, [role="main"] {
 .popover-region-header-container, .popover-region-header-container .content-item-container, .popover-region-footer-container, .popover-region-content-container, .popover-region-container {
     background-color: var(--under-color)!important;
     color: var(--text-color)!important;
+}
+
+.path-mod-assign td.submissionstatussubmitted, .earlysubmission, .submissiongraded {
+    background-color: #4fcc74d6!important;
+}
+
+.latesubmission {
+    background-color: #a65a5a!important;
+}
+
+.btn-secondary {
+    color: #1d2125!important;
+    background-color: #6a737b!important;
+    border-color: #6a737b!important;
+}
+
+.btn-secondary:hover {
+    background-color: #4a4e51!important;
+    border-color: #4a4e51!important;
+}
+
+.drawertoggle {
+    background-color: var(--bg-color)!important;
+}
+
+.drawer-toggles .drawer-toggler .btn {
+    background-color: var(--under-color)!important;
+}
+
+.aalink.focus, a.focus.autolink, .aalink:focus, a.autolink:focus, #page-footer a:not([class]).focus, #page-footer a:not([class]):focus, .arrow_link.focus, .arrow_link:focus, a:not([class]).focus, a:not([class]):focus, .activityinstance>a.focus, .activityinstance>a:focus {
+    background-color: var(--hover-color)!important;
+}
+
+.popover {
+    background-color: var(--under-color)!important;
+    color: var(--text-color)!important;
+}
+
+.card {
+    background-color: var(--under-color)!important;
 }
 
 /* Chat */
@@ -60,11 +110,22 @@ body, #topofscroll, [role="main"] {
     color: var(--text-color)!important;
 }
 
+/* Eventos */
+
+.modal-content {
+    background-color: var(--under-color)!important;
+    color: var(--text-color)!important;
+}
+
 /* Termina area personal */
 
 .dropdown-menu, .dropdown-menu a {
     background-color: var(--bg-color)!important;
     color: var(--text-color)!important;
+}
+
+.dropdown-menu .dropdown-item:hover, .maincalendar .calendarmonth .clickable:hover {
+    background-color: var(--hover-color)!important;
 }
 
 .drawercontent, .drawerheader {
@@ -77,7 +138,7 @@ body, #topofscroll, [role="main"] {
 }
 
 .drawercontent a:hover {
-    color: rgba(189, 189, 189, 0.5)!important;
+    color: var(--hover-color)!important;
 }
 
 /* Cursos */
@@ -94,7 +155,7 @@ body, #topofscroll, [role="main"] {
 }
 
 .moremenu a:hover {
-    background-color: #abb2dc!important;
+    background-color: var(--hover-color)!important;
 }
 
 .activity-item {
@@ -131,3 +192,20 @@ body, #topofscroll, [role="main"] {
 }
 
 /* Termina perfil */
+
+/* Login */
+
+.login-container, .login-container span {
+    background-color: var(--under-color)!important;
+}
+
+.pagelayout-login #page {
+    background: var(--bg-color)!important;
+    background-image: linear-gradient(to right,var(--bg-color) 0%,100%)!important;
+}
+
+.loginform {
+    background: var(--under-color)!important;
+}
+
+/* Termina login */
