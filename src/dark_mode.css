@@ -10,6 +10,10 @@
 1f212b
 */
 
+.bg-white {
+    background-color: transparent!important;
+}
+
 body, #topofscroll, [role="main"] {
     background-color: var(--bg-color)!important;
 }
@@ -46,10 +50,7 @@ body, #topofscroll, [role="main"] {
 
 .path-mod-assign td.submissionstatussubmitted, .earlysubmission, .submissiongraded {
     background-color: #4fcc74d6!important;
-}
-
-.latesubmission {
-    background-color: #a65a5a!important;
+    padding: 5px!important;
 }
 
 .btn-secondary {
@@ -84,6 +85,47 @@ body, #topofscroll, [role="main"] {
     color: white;
 }
 
+.alert-info {
+    background-color: #38818d!important;
+    border-color: #38818d!important;
+}
+
+.path-mod-assign .gradingtable tr.unselectedrow td {
+    background-color: var(--under-color)!important;
+}
+
+.path-mod-assign td.submissionstatus, .path-mod-assign div.submissionstatus, .path-mod-assign a:link.submissionstatus {
+    color: white!important;
+    padding: 5px;
+    background-color: var(--bg-color)!important;
+}
+
+.latesubmission {
+    background-color: #a65a5a!important;
+    padding: 5px;
+}
+
+.submissionstatussubmitted {
+    background-color: #7bd678!important;
+    padding: 5px!important;
+}
+
+.message-app .footer-container textarea {
+    color: #000!important;
+}
+
+.message-app .message.received .tail, .message-app .message.send .tail {
+    display: none;
+}
+
+.message-app .message.received, .message-app .message.send {
+    background-color: var(--bg-color)!important;
+    color: var(--text-color)!important;
+}
+
+.day {
+    color: var(--text-color)!important;
+}
 
 /* Chat */
 
@@ -175,8 +217,11 @@ body, #topofscroll, [role="main"] {
 }
 
 .bg-light {
-    background-color: var(--under-color)!important;
-    color: var(--text-color)!important;
+    color: #000!important;
+}
+
+.block .block-cards .btn.btn-link.btn-icon:hover, .block .block-cards .btn.btn-link.btn-icon:focus {
+    background-color: var(--bg-color)!important;
 }
 
 .page-link {
