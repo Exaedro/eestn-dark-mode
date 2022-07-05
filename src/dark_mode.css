@@ -63,10 +63,6 @@ body, #topofscroll, [role="main"] {
     border-color: #4a4e51!important;
 }
 
-.drawertoggle {
-    background-color: var(--bg-color)!important;
-}
-
 .drawer-toggles .drawer-toggler .btn {
     background-color: var(--under-color)!important;
 }
@@ -83,6 +79,11 @@ body, #topofscroll, [role="main"] {
 .card {
     background-color: var(--under-color)!important;
 }
+
+.fa-comment-o:before, .fa-bell-o:before, .dropdown-toggle::after, .fa-remove:before, .fa-close:before, .fa-times:before {
+    color: white;
+}
+
 
 /* Chat */
 
