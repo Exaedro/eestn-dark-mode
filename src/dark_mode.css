@@ -199,7 +199,7 @@ body, #topofscroll, [role="main"] {
 }
 
 .drawercontent a:hover {
-    color: var(--hover-color)!important;
+    color: rgb(152, 152, 152)!important;
 }
 
 /* Cursos */
