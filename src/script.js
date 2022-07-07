@@ -1,9 +1,15 @@
 setInterval(() => {
-    const elements = document.getElementsByClassName('dashboard-card-footer');
-    
+    let elements = document.getElementsByClassName('bg-white');
+
     for(var i = 0;i < elements.length; i++) {
         elements[i].classList.remove('bg-white');
     } 
-}, 500)
+
+    elements = document.getElementsByClassName('bg-light');
+
+    for(var i = 0;i < elements.length; i++) {
+        elements[i].classList.remove('bg-light');
+    }
+}, 250)
         
    

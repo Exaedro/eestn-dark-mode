@@ -1,14 +1,28 @@
 :root {
-    --bg-color: #2C2F33;
-    --under-color: #23272A;
+    --bg-color: #23272A;
+    --under-color: #2C2F33;
     --text-color: #fff;
     --hover-color: rgb(53,53,53);
 }
 
 /*
-303240
-1f212b
+bg color: 2C2F33
+under color: 23272A
 */
+
+body::-webkit-scrollbar {
+    width: 12px!important;              
+}
+  
+body::-webkit-scrollbar-track {
+    background: var(--under-color)!important;       
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: var(--bg-color)!important;    /* color of the scroll thumb */
+    border-radius: 20px!important;       /* roundness of the scroll thumb */
+    border: 3px solid var(--under-color)!important;  /* creates padding around scroll thumb */
+}
 
 .bg-white {
     background-color: transparent!important;
@@ -40,6 +54,10 @@ body, #topofscroll, [role="main"] {
 
 #inst7698 > .card-body, #inst7698 > .card-body .list-group-item, #region-main {
     background-color: var(--bg-color)!important;
+    color: var(--text-color)!important;
+}
+
+.popover-body a, .popover-body {
     color: var(--text-color)!important;
 }
 
@@ -114,6 +132,10 @@ body, #topofscroll, [role="main"] {
     color: var(--text-color)!important;
 }
 
+.alert-danger {
+    background-color: #a64b3f!important;
+}
+
 /* Chat */
 
 .message-app, .message-app .card-header, .message-app .list-group-item, .message-app .bg-white, .message-app .border, .message-app #region-main {
@@ -133,8 +155,6 @@ body, #topofscroll, [role="main"] {
     background-color: var(--bg-color)!important;
     color: var(--text-color)!important;
 }
-
-/* Termina chat */
 
 /* Area personal */
 
@@ -159,8 +179,6 @@ body, #topofscroll, [role="main"] {
     background-color: var(--under-color)!important;
     color: var(--text-color)!important;
 }
-
-/* Termina area personal */
 
 .dropdown-menu, .dropdown-menu a {
     background-color: var(--bg-color)!important;
@@ -232,16 +250,12 @@ body, #topofscroll, [role="main"] {
     background-color: var(--bg-color)!important;
 }
 
-/* Termina cursos */
-
 /* Perfil */
 
 .node_category {
     background-color: var(--under-color)!important;
     color: var(--text-color)!important;
 }
-
-/* Termina perfil */
 
 /* Login */
 
@@ -257,8 +271,6 @@ body, #topofscroll, [role="main"] {
 .loginform {
     background: var(--under-color)!important;
 }
-
-/* Termina login */
 
 /* Editor de texto */
 .editor_atto_content {
@@ -290,7 +302,18 @@ div.editor_atto_toolbar button+button {
 .editor_atto_toolbar button:hover {
     background-image: radial-gradient(ellipse at center,var(--hover-color) 60%,var(--hover-color) 100%)!important;
 }
-/* Termina editor de texto */
+
+/* Docentes */
+
+.activity-add {
+    color: #0f6cbf!important;
+    border-color: #0f6cbf!important;
+    background-color: var(--bg-color)!important;
+}
+
+.activity-add:hover {
+    background-color: var(--under-color)!important;
+}
 
 .moodle-dialogue-base .moodle-dialogue .moodle-dialogue-bd {
     background-color: var(--bg-color)!important;
@@ -310,16 +333,4 @@ div.editor_atto_toolbar button+button {
 
 .fp-navbar {
     border-color: var(--under-color)!important;
-}
-
-/* Docentes */
-
-.activity-add {
-    color: #0f6cbf!important;
-    border-color: #0f6cbf!important;
-    background-color: var(--bg-color)!important;
-}
-
-.activity-add:hover {
-    background-color: var(--under-color)!important;
 }
